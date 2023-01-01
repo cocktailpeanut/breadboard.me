@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Breadboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Breadboard" />
+  <meta name="twitter:description" content="Browse, Search, and Manage Stablediffusion Images in One Place" />
+  <meta name="twitter:image" content="https://cocktailpeanut.github.io/breadboard/preview.png" />
+  <meta property="og:url" content="https://cocktailpeanut.github.io/breadboard" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Breadboard" />
+  <meta property="og:description" content="IBrowse, Search, and Manage Stablediffusion Images in One Place" />
+  <meta property="og:image" content="https://cocktailpeanut.github.io/breadboard/preview.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Browse, Search, and Manage Stablediffusion Images in One Place">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vue.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: Sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 50px;
+      letter-spacing: -2px;
+      margin: 0;
+    }
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      margin-top: 10px;
+    }
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    main {
+      width: 100%;
+      max-width: 1000px;
+      flex-shrink: 0;
+      text-align: center;
+    }
+    .btns {
+      padding: 10px 0;
+    }
+    .btn {
+      margin-right: 5px;
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 5px;
+      background: black;
+      color: white;
+      border: none;
+      text-decoration: none;
+      display: inline-block;
+    }
+    small {
+      font-size: 14px;
+      color: #222;
+    }
+  </style>
+
+</head>
+<body>
+<main>
+  <h1>breadboard</h1>
+  <small>AI-generated media browser</small>
+  <div class='btns'>
+    <a href="/docs" class='btn'>Get started <i class="fa-solid fa-play"></i></a>
+  </div>
+  <br>
+  <div class='videoWrapper'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VcqfHCZYHHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</main>
+</body>
+</html>
