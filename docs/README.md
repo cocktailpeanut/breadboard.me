@@ -1,4 +1,4 @@
-# Intro
+# Breadboard Manual
 
 <a href="#/?id=download" class='btn'><i class="fa-solid fa-file-arrow-down"></i> Download</a>
 <a href="https://github.com/cocktailpeanut/breadboard" class='inverse btn'><i class="fa-brands fa-github"></i> Github</a>
