@@ -500,8 +500,31 @@ Anything in the search bar can be bookmarked. This includes filters based on att
 
 The bookmark is then available under the bookmarks tab, and when you click, it sends you to the "model_name:analog" page.
 
-
 ![attribute_favorite.gif](attribute_favorite.gif)
+
+### Bookmarking files
+
+You can "favorite" a file by pressing the heart button (and click one more time to "unfavorite"):
+
+![favorite.gif](favorite.gif)
+
+The favorite button is nothing special.
+
+It's just an easy way to tag an item as `"tag:favorite"`, as you can see below:
+
+![favorite_tag.gif](favorite_tag.gif)
+
+Because favorites are just another form of tagging, this means you can combine favorites with other filters:
+
+- "Filter all my favorited files with a keyword 'car'": `car tag:favorite`
+- "Filter all my favorited files with a tag "blackandwhite": `tag:favorite tag:blackandwhite`
+- and more..
+
+You can also find a direct link to `tag:favorite` inside the bookmarks tab:
+
+![favorite_tab.gif](favorite_tab.gif)
+
+
 
 ## Connecting
 
