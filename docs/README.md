@@ -108,7 +108,9 @@ Breadboard works on all platforms (Mac, Windows, Linux)
 
 Download and run the DMG file here: 
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/genesis/breadboard-0.0.1-arm64.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.1.0/breadboard-0.1.0-arm64.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (ARM64 CPU)</a>
+
+<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.1.0/breadboard-0.1.0.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (Intel CPU)</a>
 
 
 #### 2. Move to Applications
@@ -139,7 +141,7 @@ Now just go to the Applications folder and find the breadboard app, and launch i
 
 On widows, you can simply download and run the setup file here:
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/genesis/breadboard.Setup.0.0.1.exe" class='big btn'><i class="fa-brands fa-windows"></i> Download for Windows</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.1.0/breadboard.Setup.0.1.0.exe" class='big btn'><i class="fa-brands fa-windows"></i> Download for Windows</a>
 
 ---
 
@@ -147,7 +149,7 @@ On widows, you can simply download and run the setup file here:
 
 From the download links, download the file format supported by your Linux distro and run it:
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/tag/genesis" class='big btn'><i class="fa-brands fa-linux"></i> Download for Linux</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/tag/0.1.0" class='big btn'><i class="fa-brands fa-linux"></i> Download for Linux</a>
 
 ---
 
