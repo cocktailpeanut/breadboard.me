@@ -564,9 +564,43 @@ You can also find a direct link to `tag:favorite` inside the bookmarks tab:
 
 ## Connecting
 
-### Connecting more folders
+### Connecting folders
+
+Connecting a folder is easy. Just go to the settings tab and click "Add a folder" to select a folder to connect:
+
+![connecting_folder.gif](connecting_folder.gif)
+
+Note that when you add one folder, all its child folders and files will be added automatically!
 
 ### Re-indexing folders
+
+Re-indexing Breadboard does the following:
+
+1. Cleans all the indexed entries for the files
+2. Starts from scratch to "crawl" all the files on the connected folders and re-indexes the files into the database
+3. This includes tags. Even when your database gets corrupted it's all fine because the tags are stored directly on the files, and re-indexing will automatically repopulate the DB!
+
+What it does NOT do:
+
+1. It does NOT touch any files. Files are in tact
+
+You can simply click the "re-index" button inside the Settings tab:
+
+![reindex.png](reindex.png)
+
+### Connecting normal files
+
+Breadboard is not just limited to AI generated media (even though it's optimized for it!)
+
+Sometimes you may want to connect normal image files to Breadboard. This may be useful for:
+
+1. managing image training sets
+2. or simply managing plain image files with the powerful breadboard UI.
+
+Below I'm connecting my `Desktop` folder to auto-import all the PNG files in my desktop folder:
+
+![normal_image.gif](normal_image.gif)
+
 
 ## Customizing
 
