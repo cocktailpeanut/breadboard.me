@@ -448,22 +448,56 @@ Of course, you can also directly type the search query in the search bar (In thi
 
 ![search_tag.gif](search_tag.gif)
 
+### Filtering by file paths
+
+You can filter by the file path pattern (This may be useful when you are using certain plugins or apps that automatically generate file names of certain pattern).
+
+![filepath1.gif](filepath1.gif)
+
+First, you will notice that every token in the file path attribute field is hyperlinked, so you can easily click them to drill down your filter using the `file_path:` keyword.
+
+In above example,
+
+1. I start from `alien` search query
+2. I click on an item to view its file path, and click on `.diffusionbee`, which filters all the results down to "all alien results with a file path pattern that includes `.diffusionbee`.
+
+Also, you can just type in the `filie_path:` query directly into the search bar:
+
+![filepath2.gif](filepath2.gif)
+
+In above example, I am typing in `file_path:invokeai` to filter only the files with a file path including `invokeai`
+
+
+We can be very creative with this filter mechanism.
+
+1. We can filter by folder names
+2. We can filter by the actual filename patterns
+3. We can combine the `file_path` filter with OTHER filters in conjunction
+
+In the following example I am ONLY filtering from files under `stable-diffusion-webui/outputs/txt2img-grids` folder by specifying the file path pattern:
+
+![filepath3.gif](filepath3.gif)
+
+As mentioned, the `file_path` filter is very powerful. It doesn't have to be just the folder name. You can filter very specific file path patterns.
+
+![filter_by_filepath.gif](filter_by_filepath.gif)
+
+In above example,
+
+1. We start from the search query `rembrandt`
+2. Then we inspect an item, and click on a hyperlink that leads us directly to the EXACT file path, which gives us one file (because there's only one file with that name)
+3. In this case, I know that the generator app generated the files with a `(number)_(prompt).png` pattern, so to broaden the filter, I get rid of the prefix number, and this gives me more results with that file path pattern.
+
 
 ### Filtering by attributes
 
 Each item has multiple metadata attributes. Some of them are indexed to let you easily filter based on the attributes.
 
-For example, you can filter by the file path pattern (This may be useful when you are using certain plugins or apps that automatically generate file names of certain pattern):
-
-![filter_by_filepath.gif](filter_by_filepath.gif)
-
-You can also directly type in the filter query in the search bar (such as `file_path:<file path pattern>`).
-
 In addition to file path, you can filter based on various other attributes:
 
 - `model_name`
-- `agent`
-- `negative_prompt`
+- `agent`: the app that generated the file (`agent:invokeai`, `agent:automatic1111`, `agent:diffusionbee`, etc.)
+- `negative_prompt`: `negative_prompt: <keyword>`
 
 
 ## Playback
