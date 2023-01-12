@@ -635,13 +635,11 @@ Advanced Examples
 
 ## God filters
 
-### What is it?
+God filters are filters that are applied globally throughout the entire application experience.
 
-God filters are:
+![godfilter.png](godfilter.png)
 
-1. **omnipotent:** God filters are filters that are applied for ALL your browsing experience in the app.
-2. **invisible:** God filters 
-3. **everywhere:**
+### Properties
 
 #### 1. Omnipotent
 
