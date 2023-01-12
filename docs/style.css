@@ -74,7 +74,8 @@ section.cover .cover-main>p:last-child a {
 }
 .sidebar ul li a {
   color: rgba(0,0,0,0.8);
-  line-height: 24px;
+  line-height: 19px;
+  font-size: 13px;
 }
 .sidebar ul li.active>a {
   color: var(--theme-color);
