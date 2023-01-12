@@ -499,6 +499,192 @@ In addition to file path, you can filter based on various other attributes:
 - `agent`: the app that generated the file (`agent:invokeai`, `agent:automatic1111`, `agent:diffusionbee`, etc.)
 - `negative_prompt`: `negative_prompt: <keyword>`
 
+## Hyperfilters
+
+### What is a hyperfilter
+
+#### 1. Multi-dimensional filters
+
+Unlike [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink) that send you to **one destination**, **Hyperfilters** let you surf your files in **multiple ways for each attribute**.
+
+When you click a hyperfilter, it will display a popup that lets you choose **how** exactly to use that attribute to filter your files.
+
+In the following example when you click **rainy**, it lets you either visit the **rainy** page or the **≠rainy** page:
+
+![hyperfilter.gif](hyperfilter.gif)
+
+#### 2. Browse or Search
+
+1. You can click the hyperfilters in every card to "browse" your files.
+2. But you can also directly enter the hyperfilter syntax directly into the search bar.
+
+Here's an example usage of directly entering the hyperfilter into the search bar:
+
+![browser_hyperfilter.gif](browser_hyperfilter.gif)
+
+
+### Syntax
+
+
+#### Number
+
+There are several integer or float type attributes, such as `width` and `height`. These attributes can be filtered and sorted in various ways:
+
+##### 1. Exact match
+
+The following query syntax will give you the exact match:
+
+```
+<attribute name>:<value>
+```
+
+For example:
+
+- `width:512`: Get all images with width 512
+- `height:512`: Get all images with height 512
+- `width:512 height:512`: Get all images with width 512 and height 512
+
+##### 2. Greater than
+
+The following query syntax will give you all the files with the attribute value greater than the specified query value
+
+```
++<attribute name>:<value>
+```
+
+For example:
+
+- `+width:512`: Get all images with width GREATER THAN 512
+- `+height:512`: Get all images with height GREATER THAN 512
+- `+width:512 +height:512`: Get all images with width GREATER THAN 512 and height GREATER THAN 512
+
+
+##### 3. Less than
+
+The following query syntax will give you all the files with the attribute value greater than the specified query value
+
+```
+-<attribute name>:<value>
+```
+
+For example:
+
+- `-width:512`: Get all images with width LESS THAN 512
+- `-height:512`: Get all images with height LESS THAN 512
+- `-width:512 -height:512`: Get all images with width LESS THAN 512 and height LESS THAN 512
+
+##### 4. Greater than or equal to
+
+The following query syntax will give you all the files with the attribute value greater than or equal to the specified query value
+
+```
++=<attribute name>:<value>
+```
+
+For example:
+
+- `+=width:512`: Get all images with width >= 512
+- `+=height:512`: Get all images with height >= 512
+- `+=width:512 +=height:512`: Get all images with width >= 512 and height >= 512
+
+##### 5. Less than or equal to
+
+The following query syntax will give you all the files with the attribute value less than or equal to the specified query value
+
+```
+-=<attribute name>:<value>
+```
+
+For example:
+
+- `-=width:512`: Get all images with width <= 512
+- `-=height:512`: Get all images with height <= 512
+- `-=width:512 +=height:512`: Get all images with width <= 512 and height <= 512
+
+
+#### String
+
+Many attributes are strings. For these attributes you can filter by either the **existence** (positive) or **non existence** (negative) of the filters.
+
+##### 1. Positive filter
+
+The syntax for positive filters is the default syntax. For example:
+
+- `rainy night`: prompt filter
+- `tag:nsfw`: tag filter
+
+##### 2. Negative filter
+
+Negative filters are used to EXCLUDE files that match the filters. Here's the syntax
+
+```
+-<attribute name>:<value>
+```
+
+Examples:
+
+- `-tag:nsfw`: (negative tag filter) Return all files that are NOT tagged as nsfw
+- `-:rainy`: (negative prompt filter) Return all files that do NOT include "rainy" in their prompts
+- `-file_path:intermediaries`: (negative file path filter) Return all files, excluding the ones whose file paths include "intermediaries" (This includes the parent folder names)
+
+Advanced Examples
+
+- `night -:rainy -:snowy`: get all the "night" images, but remove the ones that include "rainy" and remove the ones that include "snowy"
+- `night -:"rainy snowy"`: get all the "night" images, but ONLY remove the ones that include BOTH "rainy" and "snowy" (different from above, only the ones that include both "rainy" and "snowy" will be excluded)
+
+
+## God filters
+
+### What is it?
+
+God filters are:
+
+1. **omnipotent:** God filters are filters that are applied for ALL your browsing experience in the app.
+2. **invisible:** God filters 
+3. **everywhere:**
+
+#### 1. Omnipotent
+
+God filters are global filters. They are applied **on top of** all your queries.
+
+If you had `-file_path:txt2img-grids` as a God filter, and searched for "rainy day", this will search all the "rainy day" files, but excluding all the files under the "txt2img-grids" folder.
+
+#### 2. Invisible
+
+While God filters are applied to your browsing, they **do not show up on the search bar**.
+
+For example, if you saved `-tag:nsfw` as a god filter, all your browsing will exclude files tagged as "nsfw", but the `-tag:nsfw` will NOT show up on the search bar every time. The filter is applied in the background silently.
+
+#### 3. Everywhere
+
+God filters are applied everywhere in the app, automatically. For all queries.
+
+
+### How to use God filters
+
+#### Creating a god filter
+
+There are two steps:
+
+1. Bookmark a filter
+2. Go to the bookmarks tab
+3. Turn the bookmarked filter into a god filter
+
+![makegod.gif](makegod.gif)
+
+#### Turning god filter on and off
+
+It's very easy to turn the god filter on and off. Just click "turn off", and it will be "demoted" to a regular bookmarked filter. Click "make god" again, and it will make it a god filter.
+
+In the following example:
+
+1. We start with a `-tag:nsfw` God filter turned on (which means all NSFW files are not being displayed)
+2. We go to the favorites tab, and click "turn off" on the `-tag:nsfw` filter.
+3. Now when we go back to the home page, we can see that the NSFW content are being displayed now.
+
+![turnoff.gif](turnoff.gif)
+
+
 
 ## Playback
 
