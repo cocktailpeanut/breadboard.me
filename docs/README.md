@@ -102,15 +102,31 @@ Breadboard works on all platforms (Mac, Windows, Linux)
 
 ---
 
+## Windows
+
+On widows, you can simply download and run the setup file here:
+
+<a href="https://github.com/cocktailpeanut/breadboard-staging/releases/download/0.2.0/breadboard.Setup.0.2.0.exe" class='big btn'><i class="fa-brands fa-windows"></i> Download for Windows</a>
+
+---
+
+## Linux
+
+From the download links, download the file format supported by your Linux distro and run it:
+
+<a href="https://github.com/cocktailpeanut/breadboard-staging/releases/tag/0.2.0" class='big btn'><i class="fa-brands fa-linux"></i> Download for Linux</a>
+
+---
+
 ## Mac
 
 #### 1. Download
 
 Download and run the DMG file here: 
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.1.0/breadboard-0.1.0-arm64.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (ARM64 CPU)</a>
+<a href="https://github.com/cocktailpeanut/breadboard-staging/releases/download/0.2.0/breadboard-0.2.0-arm64.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (ARM64 CPU)</a>
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.1.0/breadboard-0.1.0.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (Intel CPU)</a>
+<a href="https://github.com/cocktailpeanut/breadboard-staging/releases/download/0.2.0/breadboard-0.2.0.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (Intel CPU)</a>
 
 
 #### 2. Move to Applications
@@ -134,22 +150,6 @@ The patch script is ncessary in order to avoid Apple's "Gatekeeper" feature that
 #### 4. Open the app
 
 Now just go to the Applications folder and find the breadboard app, and launch it. That's all!
-
----
-
-## Windows
-
-On widows, you can simply download and run the setup file here:
-
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.1.0/breadboard.Setup.0.1.0.exe" class='big btn'><i class="fa-brands fa-windows"></i> Download for Windows</a>
-
----
-
-## Linux
-
-From the download links, download the file format supported by your Linux distro and run it:
-
-<a href="https://github.com/cocktailpeanut/breadboard/releases/tag/0.1.0" class='big btn'><i class="fa-brands fa-linux"></i> Download for Linux</a>
 
 ---
 
