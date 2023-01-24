@@ -102,7 +102,9 @@ Breadboard works on all platforms (Mac, Windows, Linux)
 
 ---
 
-## Windows
+## Breadboard
+
+### Windows
 
 On widows, you can simply download and run the setup file here:
 
@@ -110,7 +112,7 @@ On widows, you can simply download and run the setup file here:
 
 ---
 
-## Linux
+### Linux
 
 From the download links, download the file format supported by your Linux distro and run it:
 
@@ -118,7 +120,7 @@ From the download links, download the file format supported by your Linux distro
 
 ---
 
-## Mac
+### Mac
 
 #### 1. Download
 
@@ -150,6 +152,23 @@ The patch script is ncessary in order to avoid Apple's "Gatekeeper" feature that
 #### 4. Open the app
 
 Now just go to the Applications folder and find the breadboard app, and launch it. That's all!
+
+---
+
+## Breadmachine
+
+Sometimes you may want to use Breadboard with more flexibility. For example:
+
+1. **Server Install:** Install and run breadboard on a remote server
+2. **Multiplayer:** Collaborate with multiple users
+3. **Embedded Usage:** Seamlessly embed Breadboard into other applications or workflows
+
+For this you can use <a href="/breadmachine">Breadmachine</a>, the core virtual machine that powers Breadboard:
+
+![bm.png](bm.png)
+
+
+<a href="/breadmachine" class='btn'><i class="fa-solid fa-bread-slice"></i> Learn more about Breadmachine</a>
 
 ---
 
