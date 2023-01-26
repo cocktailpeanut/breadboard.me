@@ -15,7 +15,7 @@ It is designed from scratch to let you easily browse, manage, and navigate all y
 2. **Search:** Quickly search images by prompt
 3. **Manage:** select and bulk delete files, drag and drop to any other app for seamless integrated workflows.
 
-![breadboard.gif](breadboard.gif)
+![bb.gif](bb.gif)
 
 ---
 
