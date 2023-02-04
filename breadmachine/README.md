@@ -2,7 +2,7 @@
 
 <a href="https://github.com/cocktailpeanut/breadmachine" class='inverse btn'><i class="fa-brands fa-github"></i> Github</a>
 <a href="https://twitter.com/cocktailpeanut" class='inverse btn'><i class="fa-brands fa-twitter"></i> Twitter</a>
-<a href="https://discord.gg/6MJ6MQScnX" class='inverse btn'><i class="fa-brands fa-discord"></i> Discord</a>
+<a href="https://discord.gg/XahBUrbVwz" class='inverse btn'><i class="fa-brands fa-discord"></i> Discord</a>
 
 <div class='videoWrapper'>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/0c8eKrStGSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

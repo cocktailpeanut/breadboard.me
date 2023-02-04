@@ -3,7 +3,7 @@
 <a href="#/?id=download" class='btn'><i class="fa-solid fa-file-arrow-down"></i> Download</a>
 <a href="https://github.com/cocktailpeanut/breadboard" class='inverse btn'><i class="fa-brands fa-github"></i> Github</a>
 <a href="https://twitter.com/cocktailpeanut" class='inverse btn'><i class="fa-brands fa-twitter"></i> Twitter</a>
-<a href="https://discord.gg/6MJ6MQScnX" class='inverse btn'><i class="fa-brands fa-discord"></i> Discord</a>
+<a href="https://discord.gg/XahBUrbVwz" class='inverse btn'><i class="fa-brands fa-discord"></i> Discord</a>
 
 > Browse, search, and manage all AI generated images on your machine, in one place.
 
