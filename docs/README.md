@@ -172,6 +172,61 @@ For this you can use <a href="/breadmachine">Breadmachine</a>, the core virtual 
 
 ---
 
+# Tutorials
+
+This section includes tutorial videos that walk you through all the new features introduced in every release.
+
+## 1. Browser
+
+This video walks you through most of the basic breadboard features
+
+<div class='videoWrapper'>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wfyXUXc1hb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+## 2. Filters
+
+This video explains the concept of "hyperfilters", a breadboard feature that lets you filter and browse files based on various metadata properties
+
+<div class='videoWrapper'>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9aBujgfomMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+## 3. Breadboard on a server
+
+This video introduces [breadmachine](https://github.com/cocktailpeanut/breadmachine), which lets you run breadboard on a remote server.
+
+<div class='videoWrapper'>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0c8eKrStGSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+## 4. Realtime and multi-window
+
+This video explains the realtime notifications and mult-window features introduced in Breadboard
+
+<div class='videoWrapper'>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DhzlmE-f8LQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+## 5. Controlnet and Image Viewer
+
+Controlnet and image viewer support
+
+<div class='videoWrapper'>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Gk-JKUwQcWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+---
+
 # Components
 
 The Breadboard app is made up of 3 area:
@@ -820,6 +875,27 @@ You can switch back and forth between **light mode** and **dark mode**. Just go 
 
 ---
 
+# Keyboard Shortcuts
+
+- **Select:** move the cursor from one selected item to another
+  - moving to the previous item: `left` or `up`
+  - moving to the next item: `right` or `down`
+i- **Multiselect:** select multiple items with keyboard
+  - adding the previous item to the current selection: `shift+left` or `shift+up`
+  - adding the next item to the current selection: `shift+right` or `shift+down`
+- **Select all:** `ctrl+a` to select all items
+  - Note that "recycled view" mode will keep recycling items as you scroll (for efficiency), so if you really want to select ALL items everl loaded on screen, switch to "non recycled view" mode. (In most cases, it is recommended to use the recycled view mode)
+- **Expand and collapse:** Either expand or collapse the selected item
+  - while an item is selected, press `enter` to expand the details, and press `enter` one more time to collapse.
+- **Image viewer:** Use the image viewer with keyboard shortcuts
+  - opening or closing the viewer: `spacebar`
+  - closing the viewer: `escape`
+  - deleting the file currently being viewed: `delete`
+- **Opening new windows**
+  - Open a new blank window: `ctrl+n`
+  - Open a filter page in a new window: hold down `ctrl` when you click a filter, and it will open the new page in a new window.
+
+---
 
 # Tips
   - copy texts
