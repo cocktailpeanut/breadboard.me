@@ -880,7 +880,7 @@ You can switch back and forth between **light mode** and **dark mode**. Just go 
 - **Select:** move the cursor from one selected item to another
   - moving to the previous item: `left` or `up`
   - moving to the next item: `right` or `down`
-i- **Multiselect:** select multiple items with keyboard
+- **Multiselect:** select multiple items with keyboard
   - adding the previous item to the current selection: `shift+left` or `shift+up`
   - adding the next item to the current selection: `shift+right` or `shift+down`
 - **Select all:** `ctrl+a` to select all items
