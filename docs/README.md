@@ -830,6 +830,22 @@ Connecting a folder is easy. Just go to the settings tab and click "Add a folder
 
 Note that when you add one folder, all its child folders and files will be added automatically!
 
+### Finding folders to connect
+
+Breadboard lets you connect **any folder you like**. But most likely, you may want to find folders where your StableDiffusion generated images are stored, since that's the core feature of the app.
+
+Generally you can find these folders by following the steps below:
+
+1. Open the Stable Diffusion app you're using and go to the settings menu. Then look for something that sounds like "auto save directory"
+2. If you can't find them, join the Stable Diffusion app's community and ask
+3. If you really can't find, join the Breadboard discord and ask: https://discord.gg/XahBUrbVwz
+
+In some cases, the autosave feature may not be turned on by default, and you will need to turn it on yourself.
+
+For example, with [Draw Things](https://drawthings.ai/), you need to scroll all the way to the bottom of the screen, and you will see a menu that lets you turn on the "Save generated images to" folder:
+
+![drawthings.png](drawthings.png)
+
 ### Re-indexing folders
 
 Re-indexing Breadboard does the following:
