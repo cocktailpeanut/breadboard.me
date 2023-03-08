@@ -108,7 +108,7 @@ Breadboard works on all platforms (Mac, Windows, Linux)
 
 On widows, you can simply download and run the setup file here:
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.4.3/breadboard.Setup.0.4.3.exe" class='big btn'><i class="fa-brands fa-windows"></i> Download for Windows</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.4.5/breadboard.Setup.0.4.5.exe" class='big btn'><i class="fa-brands fa-windows"></i> Download for Windows</a>
 
 ---
 
@@ -116,7 +116,7 @@ On widows, you can simply download and run the setup file here:
 
 From the download links, download the file format supported by your Linux distro and run it:
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/tag/0.4.3" class='big btn'><i class="fa-brands fa-linux"></i> Download for Linux</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/tag/0.4.5" class='big btn'><i class="fa-brands fa-linux"></i> Download for Linux</a>
 
 ---
 
@@ -126,9 +126,9 @@ From the download links, download the file format supported by your Linux distro
 
 Download and run the DMG file here: 
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.4.3/breadboard-0.4.3-arm64.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (ARM64 CPU)</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.4.5/breadboard-0.4.5-arm64.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (ARM64 CPU)</a>
 
-<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.4.3/breadboard-0.4.3.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (Intel CPU)</a>
+<a href="https://github.com/cocktailpeanut/breadboard/releases/download/0.4.5/breadboard-0.4.5.dmg" class='large btn'><i class="fa-brands fa-apple"></i> Download for Mac (Intel CPU)</a>
 
 
 #### 2. Move to Applications
